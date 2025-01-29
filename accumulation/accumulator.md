@@ -48,3 +48,7 @@ There are two common approaches for initializing the accumulator for this task:
 
 In this case max_value is the accumulator that has as its value the largest value seen thus far in the list
 To find the smallest value in the list we can replace the comparison operator `>` with `<`
+
+# Tracking the Position
+
+An accumulator alone is at times not enough. Say that I am looking for the largest value in list and I also need to know the index of the largerst value in the List, or better yet the exact location of the value in the list. That means that I need to track 2 pieces of information, the value itself and the position
